@@ -8,6 +8,13 @@ html , body{
     overflow-x: hidden;
 }
 
+body {
+    width: 100%;
+    background-image: url('../assets/images/BG.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 a {
     text-decoration: none;
 }
