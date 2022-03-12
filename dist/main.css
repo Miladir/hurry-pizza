@@ -1,3 +1,7 @@
+.accent-color {
+  color: #E99F39;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -75,6 +79,14 @@ table, tr, td {
           justify-content: space-between;
 }
 
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
 .m-lg {
   margin: 2rem;
 }
@@ -93,6 +105,53 @@ table, tr, td {
   color: #6D4807;
 }
 
+.hero {
+  margin-top: 6rem;
+}
+
+.hero .delivery__title {
+  font-size: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 24rem;
+  height: 3.3rem;
+  padding: .8rem;
+  border-radius: 1rem;
+  color: #6D4807;
+  background: linear-gradient(90.38deg, #c87f2642 5.58%, rgba(210, 155, 82, 0.082) 127.21%);
+}
+
+.hero h1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  color: #6D4807;
+  font-size: 4rem;
+}
+
+.hero h1 .light-weight {
+  font-weight: 400;
+}
+
+.hero h1::before {
+  content: url("../../assets/images/vector-stripped-line.svg");
+  position: absolute;
+  top: -5rem;
+  left: 25rem;
+}
+
+.hero h1::after {
+  content: url("../../assets/images/vector-floral.svg");
+  position: absolute;
+  top: 8rem;
+  left: 30rem;
+}
+
+.hero .hero__art img {
+  width: 80%;
+}
+
 .btn-outline {
   position: relative;
   top: 0;
@@ -104,7 +163,7 @@ table, tr, td {
   height: 6rem;
   padding: 1rem;
   border: 0.15rem solid #A06D14;
-  border-radius: 1.4rem;
+  border-radius: 1.8rem;
   color: #6D4807;
   background-color: transparent;
 }
@@ -117,6 +176,6 @@ table, tr, td {
   width: inherit;
   height: 5.7rem;
   border: 0.15rem solid #A06D14;
-  border-radius: 1.6rem;
+  border-radius: 1.8rem;
 }
 /*# sourceMappingURL=main.css.map */
