@@ -1,0 +1,27 @@
+
+.btn-outline {
+    position: relative;
+    top: 0;
+    left: 0;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1.2rem;
+    width: 12rem;
+    height: 6rem;
+    padding: 1rem;
+    border:0.15rem solid #A06D14;
+    border-radius: 1.4rem ;
+    color:$primary-color;
+    background-color: transparent;
+}
+
+.btn-outline::before {
+    content: "";
+    position: absolute;
+    top:  -0.9rem;
+    left: -0.9rem;
+    width: inherit;
+    height:5.7rem;
+    border:0.15rem solid #A06D14;
+    border-radius: 1.6rem ;
+}
