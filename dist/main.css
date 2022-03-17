@@ -105,12 +105,24 @@ table, tr, td {
 }
 
 header {
+  position: relative;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100vh;
-  background-image: url("../../assets/images/hero-art-bg.svg");
-  background-size: 35%;
+}
+
+header::before {
+  content: '';
+  background-image: url("../assets/images/hero-art-bg.svg");
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: 100% 0;
+  background-position: right -20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 70rem;
+  height: 70rem;
 }
 
 .nav {
@@ -123,7 +135,6 @@ header {
 }
 
 .hero {
-  max-height: 90vh;
   margin-top: 6rem;
 }
 
@@ -196,7 +207,7 @@ header {
 }
 
 .hero .hero__art img {
-  width: 80%;
+  width: 100%;
 }
 
 .btn-outline {
